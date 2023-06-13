@@ -1,14 +1,14 @@
-name: Disala - MacOS RDP
+name: MacRunner
 on:
   workflow_dispatch:
 
 jobs:
   build:
-    name: Click Here !
+    name: Runner
     runs-on: macos-latest
 
     steps:
-      - name: Install & Set Up Ngrok & Mac Os
+      - name: Install and Setup
         env:
           NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
         run: |
