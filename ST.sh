@@ -8,8 +8,8 @@ sudo dscl . -create /Users/JahidHasan RealName The_Disala_YT
 sudo dscl . -create /Users/JahidHasan UniqueID 1001
 sudo dscl . -create /Users/JahidHasan PrimaryGroupID 80
 sudo dscl . -create /Users/JahidHasan NFSHomeDirectory /Users/tcv
-sudo dscl . -passwd /Users/JahidHasan @#Disala123456
-sudo dscl . -passwd /Users/JahidHasan @#Disala123456
+sudo dscl . -passwd /Users/JahidHasan @#Jahid123456
+sudo dscl . -passwd /Users/JahidHasan @#Jahid123456
 sudo createhomedir -c -u JahidHasan > /dev/null
 sudo dscl . -append /Groups/admin GroupMembership username
 
