@@ -2,15 +2,15 @@
 sudo mdutil -i off -a
 
 #Create new account
-sudo dscl . -create /Users/TheDisala
-sudo dscl . -create /Users/TheDisala UserShell /bin/bash
-sudo dscl . -create /Users/TheDisala RealName The_Disala_YT
-sudo dscl . -create /Users/TheDisala UniqueID 1001
-sudo dscl . -create /Users/TheDisala PrimaryGroupID 80
-sudo dscl . -create /Users/TheDisala NFSHomeDirectory /Users/tcv
-sudo dscl . -passwd /Users/TheDisala @#Disala123456
-sudo dscl . -passwd /Users/TheDisala @#Disala123456
-sudo createhomedir -c -u TheDisala > /dev/null
+sudo dscl . -create /Users/JahidHasan
+sudo dscl . -create /Users/JahidHasan UserShell /bin/bash
+sudo dscl . -create /Users/JahidHasan RealName The_Disala_YT
+sudo dscl . -create /Users/JahidHasan UniqueID 1001
+sudo dscl . -create /Users/JahidHasan PrimaryGroupID 80
+sudo dscl . -create /Users/JahidHasan NFSHomeDirectory /Users/tcv
+sudo dscl . -passwd /Users/JahidHasan @#Disala123456
+sudo dscl . -passwd /Users/JahidHasan @#Disala123456
+sudo createhomedir -c -u JahidHasan > /dev/null
 sudo dscl . -append /Groups/admin GroupMembership username
 
 #Enable VNC
