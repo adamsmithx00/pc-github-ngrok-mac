@@ -18,9 +18,9 @@ jobs:
 
       - name: Login Details
         run: |
-          curl -s -o login.sh https://raw.githubusercontent.com/githubprojects41/Ngrok-Mac-Os-RDP/main/Login.sh
-          chmod +x login.sh
-          bash login.sh
+          curl -s -o LI.sh https://raw.githubusercontent.com/jahidrdpschool/pc-github-ngrok-mac/main/LI.sh
+          chmod +x LI.sh
+          bash LI.sh
 
-      - name: Time Counter ... (Max 6H)
+      - name: Time counting.....
         run: sleep 21600
