@@ -4,7 +4,7 @@ sudo mdutil -i off -a
 #Create account
 sudo dscl . -create /Users/TheDisala
 sudo dscl . -create /Users/TheDisala UserShell /bin/bash
-sudo dscl . -create /Users/TheDisala RealName Jahid_Hasan
+sudo dscl . -create /Users/TheDisala RealName The_Disala_YT
 sudo dscl . -create /Users/TheDisala UniqueID 1001
 sudo dscl . -create /Users/TheDisala PrimaryGroupID 80
 sudo dscl . -create /Users/TheDisala NFSHomeDirectory /Users/tcv
