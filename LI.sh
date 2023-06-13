@@ -5,4 +5,4 @@ echo ..........................................................
 echo IP:
 curl -s http://localhost:4040/api/tunnels | grep -o '"public_url":"[^"]*' | sed 's/"public_url":"//'
 echo Username: Jahid
-echo Password: @#Jahid123456
+echo Password: jahidhasan
