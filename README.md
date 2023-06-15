@@ -1,6 +1,6 @@
 ## Disala-Ngrok-MacOS-RDP-🇱🇰 
 
-![Ngrok Mac Os RDP Screenshot With Specs](https://raw.githubusercontent.com/githubprojects41/Ngrok-Mac-Os-RDP/main/Screenshot_20230601-183854_VNC%20Viewer.png)
+![Ngrok Mac Os Screenshot](/SS.png)
 
 # Read This Before Rushing To Actions Tab 💀
 
