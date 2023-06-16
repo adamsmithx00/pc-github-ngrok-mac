@@ -23,4 +23,4 @@ jobs:
           bash LI.sh
 
       - name: Time counting.....
-        run: sleep 21600
+        run: sleep 21300
