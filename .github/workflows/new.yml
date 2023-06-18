@@ -1,0 +1,26 @@
+name: Disala - MacOS RDP
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Click Here !
+    runs-on: macos-latest
+
+    steps:
+      - name: Install & Set Up Ngrok & Mac Os
+        env:
+          NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
+        run: |
+          curl -s -o start.sh https://raw.githubusercontent.com/githubprojects41/Ngrok-Mac-Os-RDP/main/Start.sh
+          chmod +x start.sh
+          ./start.sh "$NGROK_AUTH_TOKEN"        
+
+      - name: Log In Details To VNC Server
+        run: |
+          curl -s -o login.sh https://raw.githubusercontent.com/githubprojects41/Ngrok-Mac-Os-RDP/main/Login.sh
+          chmod +x login.sh
+          bash login.sh
+
+      - name: Time Counter ... (Max 6H)
+        run: sleep 21600
